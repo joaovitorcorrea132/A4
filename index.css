@@ -1,0 +1,70 @@
+header {
+    background: rgb(17, 136, 17);
+    padding: 10px 30px;
+    position: relative;
+    margin-top: -2px;
+    width: 96%;
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+
+}
+
+header img {
+    margin-left: 15px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+nav ul {
+    text-align: right;
+    font-size: 30px;
+    color: white;
+
+}
+
+nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.caixa1,
+.caixa2,
+.caixa3,
+.caixa4 {
+    display: inline-block;
+    font-size: 18px;
+    background-color: rgb(228, 228, 228);
+    width: 40%;
+    height: 150px;
+    border: 4px solid black;
+    margin: 3%;
+    border-radius: 5px;
+
+}
+
+
+.caixa1 h2,
+.caixa2 h2,
+.caixa3 h2,
+.caixa4 h2 {
+    float: left;
+}
+
+
+.sobre {
+    display: block;
+    margin: 5%;
+}
+
+.sobre h1 {
+    font-size: 40px;
+    text-align: center;
+    margin: 20px;
+    font-style: bold;
+    margin-top: 80px;
+}
+
+.sobre p {
+    text-indent: 40px;
+    font-size: 25px;
+    margin: 20px;
+}
